@@ -1,15 +1,15 @@
 {
- "name": "node-document",
+ "name": "quick-dom",
  "description": "a one-liner for adding a browser-like document to your node.js global object, useful when testing DOM based applications",
  "version": "0.0.1",
- "homepage": "https://github.com/podefr/node-document",
+ "homepage": "https://github.com/podefr/quick-dom",
  "licenses": [{
   "type":"MIT",
-  "url":"https://github.com/podefr/node-document/blob/master/LICENSE"
+  "url":"https://github.com/podefr/quick-dom/blob/master/LICENSE"
  }],
  "files": [
  	"LICENSE",
- 	"node-document.js"
+ 	"quick-dom.js"
  ],
  "dependencies": {
  	"jsdom": ">=0.8.10"
@@ -18,10 +18,10 @@
  "keywords": ["document", "DOM", "BOM", "jsdom", "node"],
  "repository": {
   "type": "git",
-  "url": "git@github.com:podefr/node-document.git"
+  "url": "git@github.com:podefr/quick-dom.git"
  },
  "bugs": {
-  "url": "https://github.com/podefr/node-document/issues"
+  "url": "https://github.com/podefr/quick-dom/issues"
  },
- "main":"node-document.js"
+ "main":"quick-dom.js"
 }

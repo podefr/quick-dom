@@ -1,4 +1,4 @@
-node-document
+quick-dom
 =============
 
 a one-liner for adding a browser-like document to your node.js global object, useful when testing DOM based applications.
@@ -8,7 +8,7 @@ Installation
 ============
 
 ```bash
-npm install node-document
+npm install quick-dom
 ```
 
 How to use
@@ -17,7 +17,7 @@ How to use
 This will add 'window' and 'document' to the global object in your node application.
 
 ```js
-require("node-document");
+require("quick-dom");
 
 console.log(window.document.innerHTML);
 // output: "<html><head></head><body></body></html>"
@@ -26,10 +26,10 @@ console.log(window.innerWidth);
 // output: 1024
 ```
 
-Requiring node-document returns an instance of jsdom:
+Requiring quick-dom returns an instance of jsdom:
 
 ```js
-var jsdom = require("node-document");
+var jsdom = require("quick-dom");
 ```
 
 LICENSE
