@@ -1,0 +1,27 @@
+{
+ "name": "node-document",
+ "description": "a one-liner for adding a browser-like document to your node.js global object, useful when testing DOM based applications",
+ "version": "0.0.1",
+ "homepage": "https://github.com/podefr/node-document",
+ "licenses": [{
+  "type":"MIT",
+  "url":"https://github.com/podefr/node-document/blob/master/LICENSE"
+ }],
+ "files": [
+ 	"LICENSE",
+ 	"node-document.js"
+ ],
+ "dependencies": {
+ 	"jsdom": ">=0.8.10"
+ },
+ "author": "Olivier Scherrer <pode.fr@gmail.com>",
+ "keywords": ["document", "DOM", "BOM", "jsdom", "node"],
+ "repository": {
+  "type": "git",
+  "url": "git@github.com:podefr/node-document.git"
+ },
+ "bugs": {
+  "url": "https://github.com/podefr/node-document/issues"
+ },
+ "main":"node-document.js"
+}
