@@ -1,6 +1,6 @@
 /**
  * quick-dom.js - http://podefr.github.com/quick-dom/
- * Copyright(c) 2013 Olivier Scherrer <pode.fr@gmail.com>
+ * Copyright(c) 2013-2015 Olivier Scherrer <pode.fr@gmail.com>
  * MIT Licensed
  */
 "use strict";

@@ -1,27 +1,35 @@
 {
- "name": "quick-dom",
- "description": "a one-liner for adding a browser-like document to your node.js global object, useful when testing DOM based applications",
- "version": "0.0.1",
- "homepage": "https://github.com/podefr/quick-dom",
- "licenses": [{
-  "type":"MIT",
-  "url":"https://github.com/podefr/quick-dom/blob/master/LICENSE"
- }],
- "files": [
- 	"LICENSE",
- 	"quick-dom.js"
- ],
- "dependencies": {
- 	"jsdom": ">=0.8.10"
- },
- "author": "Olivier Scherrer <pode.fr@gmail.com>",
- "keywords": ["document", "DOM", "BOM", "jsdom", "node"],
- "repository": {
-  "type": "git",
-  "url": "git@github.com:podefr/quick-dom.git"
- },
- "bugs": {
-  "url": "https://github.com/podefr/quick-dom/issues"
- },
- "main":"quick-dom.js"
+  "name": "quick-dom",
+  "description": "a one-liner for adding a browser-like document to your node.js global object, useful when testing DOM based applications",
+  "version": "0.0.2",
+  "homepage": "https://github.com/podefr/quick-dom",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/podefr/quick-dom/blob/master/LICENSE"
+    }
+  ],
+  "files": [
+    "LICENSE",
+    "quick-dom.js"
+  ],
+  "dependencies": {
+    "jsdom": "~3.0.3"
+  },
+  "author": "Olivier Scherrer <pode.fr@gmail.com>",
+  "keywords": [
+    "document",
+    "DOM",
+    "BOM",
+    "jsdom",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:podefr/quick-dom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/podefr/quick-dom/issues"
+  },
+  "main": "quick-dom.js"
 }

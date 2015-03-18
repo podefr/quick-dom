@@ -32,6 +32,13 @@ Requiring quick-dom returns an instance of jsdom:
 var jsdom = require("quick-dom");
 ```
 
+Changelog
+=======
+
+### 0.0.2 - 18 MAR 2015
+
+* bump jsdom to 3.0.3
+
 LICENSE
 =======
 
